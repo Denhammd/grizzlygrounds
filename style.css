@@ -1,0 +1,113 @@
+body {
+    font-family: 'Raleway';
+    background-color: #FAF6F1;
+    color: #2E554E;
+    line-height: 1.6;
+}
+  
+h1, h2, h3, h4, h5 {
+    color: #4B2E2E;
+    font-family: 'Chewy';
+    font-weight: 700;
+}
+  
+a {
+    color: #8B5E3C;
+}
+  
+a:hover {
+    color: #C49A6C;
+}
+  
+.navbar {
+    background-color: #ffffff !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+  
+.navbar-brand {
+    color: #4B2E2E !important;
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+}
+  
+.navbar-nav .nav-link {
+    color: #2E554E;
+    margin-left: 1rem;
+    font-weight: 500;
+}
+  
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link.active {
+    color: #8B5E3C;
+}
+.img-fluid {
+    border-radius: 1rem;
+    border: 4px solid #2E554E;
+}
+  
+.carousel-inner img {
+    border-radius: 1rem;
+    max-height: 500px;
+    object-fit: scale-down;
+    padding: 15px;
+}
+
+.hero-image {
+    height: 100vh;
+    background: linear-gradient(rgba(46, 85, 78, 0.5), rgba(0, 0, 0, 0.4)), url('caffe.png') center/cover no-repeat;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+  
+.hero-image h1 {
+    font-size: 4rem;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+  
+.hero-image p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+  
+.button-primary {
+    background-color: #2E554E;
+    color:#fff;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+  
+.button-primary:hover {
+    background-color: #8B5E3C;
+}
+
+.section {
+    padding: 5rem 0;
+}
+
+.bg-light {
+    background-color: #F5EDE4 !important;
+}
+      
+h2.fw-bold {
+    font-size: 2.5rem;
+}
+
+.section-review {
+    background:#2E554E;
+    padding: 25px;
+}
+
+.section-review h2 {
+    color: #ffffff;
+}
+
+.section-review h5 {
+    color: #4B2E2E;
+}
+
